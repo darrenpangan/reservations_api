@@ -43,6 +43,9 @@ The simplest way to test this is by using an API platform such as [Postman](http
 - Copy and paste the payload (JSON format) in the corresponding field.
 - Click the "Send" button.
 
+## Notes
+- Some information in the payload that can be calculated were not included in the models (guest and reservation). For example, the total number of guests is present in the payloads. This can be calculated by adding the number of adult, children, and infant guests.
+
 ## To do's
 - Validate that reservation start date is not ahead of end date.
 - Add authorization.
