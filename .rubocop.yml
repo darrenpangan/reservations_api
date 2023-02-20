@@ -1,0 +1,17 @@
+AllCops:
+  Exclude:
+    - bin/**/*
+    - db/**/*
+    - spec/**/**/**/*
+    - vendor/**/*
+  NewCops: enable
+  SuggestExtensions: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/AbcSize:
+  Max: 20
